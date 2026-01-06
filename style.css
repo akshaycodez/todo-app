@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+ }
+.all{
+    box-sizing: border-box;
+    border: 2px solid black;
+   margin:50px;
+   width: 700px;
+   padding: 30px;
+   background-color: rgb(192, 243, 181);
+   border-radius: 15px;
+   box-shadow: 0px 4px 10px  ;
+   text-align: center;
+ font-family:Playfair Display ;
+}
+
+
+#myh1{
+    margin: 0 0 20px 0 ;
+    font-size: 2.5em;
+    font-family:Playfair Display ;
+}
+h2{
+    margin: 0 0  10px 0 ;
+   
+ 
+}
+
+
+
+#section1{
+    display:flex;
+     gap: 10px ;
+   margin-bottom: 30px;
+}
+
+#inputtext{
+   
+    flex: 1;
+    padding: 14px 16px;
+    border: none;
+    border-bottom:4px solid #ddd;
+
+    border-radius: 7px ;
+   
+background-color: #f5faff;
+/* transition: all 6s ease; */
+font-size: 1.1em;
+
+
+}
+/* #inputtext::placeholder{
+    color: #2eb44dae;
+
+} */
+#addtask{
+    padding: 12px 20px ;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px ;
+    cursor: pointer ;
+    font-weight: bold;
+
+
+}
+#addtask:hover{
+    background-color: #0056b3;
+
+}
+ 
+
+
+
+   
+#listtodo{
+    list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#listtodo li {
+    padding: 13px ;
+    background-color: #f8f9fa;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.done{
+    opacity: 0.6;
+    text-decoration: line-through;
+    color: rgba(2, 128, 69, 0.845);
+}
+.deleteBtn{
+     border: none;
+     margin: 1px 6px ;
+     padding: 12px ;
+     background-color: #34b151;
+     color: #f5faff;
+      border-radius: 6px  ;
+}
+
+

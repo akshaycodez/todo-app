@@ -28,7 +28,7 @@ function addtask() {
         deleteBtn.textContent = "Delete";
         deleteBtn.className = "deleteBtn";
 
-        // Add delete functionality
+        
         deleteBtn.addEventListener("click", (e) => {
               e.stopPropagation();
             li.remove(); // removes the task
@@ -42,7 +42,7 @@ function addtask() {
     inputtext.focus();
 
 
-    // Create Delete button
+    
 
 }
 addbutton.addEventListener("click", addtask)
@@ -54,3 +54,4 @@ inputtext.addEventListener('keypress', function (e) {
 window.onload = function () {
     inputtext.focus();
 };
+
